@@ -52,3 +52,11 @@ Replace the API key placeholder with your actual Gemini API key::
 ```bash
 apiKey: 'YOUR_API_KEY',
 ```
+
+## Application Screenshots
+
+### Chat Screen 1
+![Chat Screen 1](screenshots/chat_screen_1.png)
+
+### Chat Screen 2
+![Chat Screen 2](screenshots/chat_screen_2.png)

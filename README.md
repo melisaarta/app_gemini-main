@@ -1,16 +1,54 @@
-# flutter_application_1
+# Flutter Application with Gemini AI Integration
 
-A new Flutter project.
+A simple Flutter chat application integrated with **Google Gemini AI**.  
+This app allows users to send messages and receive AI-generated responses in real time using a chat-style interface.
+
+---
+
+## Features
+
+- Flutter-based chat UI (clean & responsive)
+- Integration with **Google Gemini AI**
+- Real-time message interaction
+- User and bot message bubbles
+- Runs on **Web (Chrome)** and **Desktop (Windows)**
+
+---
+
+## Tech Stack
+
+- **Flutter**
+- **Dart**
+- **Gemini AI API**
+- Material Design
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Follow these steps to run the project locally.
 
-A few resources to get you started if this is your first Flutter project:
+### 1 Clone Repository
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+git clone https://github.com/melisaarta/app_gemini-main.git
+cd app_gemini-main
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 2 Install Dependencies
+
+```bash
+flutter pub get
+```
+
+### 3 Configure Gemini API Key
+
+Open the following file:
+```bash
+lib/main.dart
+```
+
+Replace the API key placeholder with your actual Gemini API key::
+```bash
+apiKey: 'YOUR_API_KEY',
+```
